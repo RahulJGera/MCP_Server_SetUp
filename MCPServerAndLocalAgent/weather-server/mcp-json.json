@@ -1,0 +1,9 @@
+{
+    "mcpServers": {
+        "weather": {
+            "command": "uv",
+            "args": ["run",
+                    "/home/rj0402g/Documents/Learning/Practice/MCP_Server_SetUp/MCPServerAndLocalAgent/weather-server/weather-server.py"]
+        }
+    }
+}

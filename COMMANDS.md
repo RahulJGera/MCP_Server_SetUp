@@ -10,3 +10,4 @@ uv run ./client_fastmcp.py
 cd ../../
 cd MCPServerAndLocalAgent/weather-server/
 uv run agentic_client.py
+uv run advanced_agentic_client.py
