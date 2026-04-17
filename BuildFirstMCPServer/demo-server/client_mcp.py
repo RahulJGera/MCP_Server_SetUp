@@ -15,7 +15,10 @@ async def client_main():
             print("After initialization: ", sid)
 
             result = await session.call_tool("add", {"a": 21, "b": 2})
-            print("Result: ", result)
+            print("Add Result: ", result)
+
+            result = await session.call_tool("sub", {"a": 50, "b": 2})
+            print("Subtract Result: ", result)
 
 if __name__ == "__main__":
     asyncio.run(client_main())
