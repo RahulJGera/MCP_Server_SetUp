@@ -10,5 +10,5 @@ dependencies = [
     "langchain>=1.2.15",
     "langchain-ollama>=1.1.0",
     "mcp",
-    "mcp-use>=1.7.0",
+    "mcp-use[search]>=1.7.0",
 ]
