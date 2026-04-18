@@ -25,8 +25,8 @@ def divide(a: int, b: int) -> int:
 @mcp.tool
 def expo(a: int, b: int) -> int:
     """Exponential of first integer."""
-    
-    return a // b
+    return a ** b
 
 if __name__ == "__main__":
-    mcp.run(transport="stdio")
+    # mcp.run(transport="stdio")
+    mcp.run(transport="streamable-http", port=8002)

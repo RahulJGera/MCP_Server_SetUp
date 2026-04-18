@@ -31,4 +31,5 @@ async def get_forecast(location: str) -> str:
         return result
 
 if __name__ == "__main__":
-    mcp.run(transport="stdio")
+    # mcp.run(transport="stdio")
+    mcp.run(transport="streamable-http", port=8001)

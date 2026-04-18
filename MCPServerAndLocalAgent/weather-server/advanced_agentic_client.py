@@ -5,12 +5,12 @@ from mcp_use import MCPAgent, MCPClient
 async def main():
 
     # Create MCPClient from configuration JSON file.
-    client = MCPClient("/home/rj0402g/Documents/Learning/Practice/MCP_Server_SetUp/MCPServerAndLocalAgent/weather-server/mcp-json.json")
+    # client = MCPClient("/home/rj0402g/Documents/Learning/Practice/MCP_Server_SetUp/MCPServerAndLocalAgent/weather-server/mcp-json.json")
+    client = MCPClient("/home/rj0402g/Documents/Learning/Practice/MCP_Server_SetUp/MCPServerAndLocalAgent/weather-server/mcp-http.json")
     # client = MCPClient()
 
     # Create LLM
     llm =ChatOllama(base_url="http://localhost:11434", model="qwen3.5")
-    # llm =ChatOllama(base_url="http://localhost:11434", model="llama3.1:8b")
 
     # Create agent with restricted tools
     agent = MCPAgent(
