@@ -1,0 +1,8 @@
+{
+    "mcpServers": {
+        "chroma_db_rag": {
+            "command": "uv",
+            "args": ["run", "/home/rj0402g/Documents/Learning/Practice/MCP_Server_SetUp/RAGusingMCP/server.py"]
+        }
+    }
+}
